@@ -1,0 +1,13 @@
+{
+    "name": "vendor/clientephp-woocomerce",
+    "description": "Description of project ClientephpWoocomerce.",
+    "authors": [
+        {
+            "name": "Jimmy",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.0"
+    }
+}
