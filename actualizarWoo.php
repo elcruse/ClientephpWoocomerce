@@ -47,7 +47,7 @@ foreach ($items_origin as $item){
 
 echo "➜ Obteniendo los ids de los productos... \n";
 // Obtenemos todos los productos de la lista de SKUs
-$products = $woocommerce->get('products/?sku='. $param_sku);
+$products = $woocommerce->get('products/?sku='.$param_sku);
 
 // Construimos la data en base a los productos recuperados
 $item_data = [];
